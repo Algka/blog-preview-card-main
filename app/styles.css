@@ -1,0 +1,107 @@
+@import url("https://fonts.googleapis.com/css2?family=Figtree:wght@600;800&family=Karla:wght@400;700&family=Open+Sans&family=Poppins:wght@400;600&display=swap");
+html {
+  box-sizing: border-box;
+  font-size: 100%;
+}
+
+*, *::after, *::before {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  line-height: 1.3;
+  font-size: 16px;
+  background-color: hsl(47, 88%, 63%);
+  font-family: "Figtree", sans-serif;
+  background-image: url(/images/bg-desktop.svg);
+}
+@media (max-width: 574px) {
+  body .hide-for-mobile {
+    display: none;
+  }
+}
+@media (min-width: 1000px) {
+  body .hide-for-desktop {
+    display: none;
+  }
+}
+
+.flex {
+  display: flex;
+}
+.flex-jc-c {
+  justify-content: center;
+}
+.flex-ai-c {
+  align-items: center;
+}
+.flex-jc-sb {
+  justify-content: space-between;
+}
+
+.container-box-desktop .boxing-desktop:hover {
+  box-shadow: 8px 8px 1px hsl(0, 0%, 7%);
+}
+.container-box-desktop .boxing-desktop {
+  width: 340px;
+  height: 450px;
+  background-color: hsl(0, 0%, 100%);
+  border: 1px solid hsl(0, 0%, 7%);
+  border-radius: 13px;
+  margin-top: 100px;
+  justify-content: center;
+  box-shadow: 5px 5px 1px hsl(0, 0%, 7%);
+}
+.container-box-desktop .boxing-desktop .first-box {
+  width: 300px;
+  height: 180px;
+  border: 1px solid hsl(0, 0%, 100%);
+  border-radius: 13px;
+  margin-top: 15px;
+  margin-left: 19px;
+  overflow: hidden;
+}
+.container-box-desktop .boxing-desktop .second-box {
+  margin-left: 20px;
+}
+.container-box-desktop .boxing-desktop .second-box button {
+  background-color: hsl(47, 88%, 63%);
+  border: 1px solid hsl(0, 0%, 100%);
+  margin-top: 13px;
+  padding: 5px;
+  font-weight: 800;
+  font-size: 12px;
+  width: 85px;
+  border-radius: 5px;
+}
+.container-box-desktop .boxing-desktop .second-box h4 {
+  font-weight: 800;
+  color: hsl(0, 0%, 7%);
+  opacity: 1;
+  font-size: 12px;
+  margin-top: 8px;
+  margin-bottom: 8px;
+}
+.container-box-desktop .boxing-desktop .second-box a {
+  text-decoration: none;
+  color: hsl(0, 0%, 7%);
+  font-size: 21px;
+  font-weight: 800;
+  margin-top: -15px;
+}
+.container-box-desktop .boxing-desktop .second-box a:hover {
+  color: hsl(47, 88%, 63%);
+}
+.container-box-desktop .boxing-desktop .second-box p {
+  font-size: 14px;
+  color: hsl(0, 0%, 50%);
+}
+.container-box-desktop .boxing-desktop .end-box {
+  margin-left: 20px;
+}
+.container-box-desktop .boxing-desktop .end-box p {
+  margin-left: 10px;
+  font-weight: 800;
+}/*# sourceMappingURL=styles.css.map */
